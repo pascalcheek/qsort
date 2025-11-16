@@ -1,3 +1,0 @@
-C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/CMakeFiles/parlaylib-populate.dir
-C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/CMakeFiles/edit_cache.dir
-C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/CMakeFiles/rebuild_cache.dir
