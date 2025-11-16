@@ -4,42 +4,26 @@
 
 template<typename T>
 size_t array_partition(parlay::sequence<T>& arr, size_t begin, size_t end) {
-    T pivot = arr[begin + (end - begin) / 2];
-    size_t i = begin - 1;
-    size_t j = end;
+    T pivot = arr[end - 1];
+    size_t i = begin;
 
-    while (true) {
-        do { i++; } while (arr[i] < pivot);
-        do { j--; } while (arr[j] > pivot);
-
-        if (i >= j) return j + 1;
-        std::swap(arr[i], arr[j]);
+    for (size_t j = begin; j < end - 1; j++) {
+        if (arr[j] <= pivot) {
+            std::swap(arr[i], arr[j]);
+            i++;
+        }
     }
+    std::swap(arr[i], arr[end - 1]);
+    return i;
 }
 
 template<typename T>
 void sequential_quicksort(parlay::sequence<T>& arr, size_t begin, size_t end) {
-    while (end - begin > 16) {
-        auto pivot = array_partition(arr, begin, end);
+    if (end - begin <= 1) return;
 
-        if (pivot - begin < end - pivot) {
-            sequential_quicksort(arr, begin, pivot);
-            begin = pivot;
-        } else {
-            sequential_quicksort(arr, pivot, end);
-            end = pivot;
-        }
-    }
-
-    for (size_t i = begin + 1; i < end; i++) {
-        T key = arr[i];
-        size_t j = i;
-        while (j > begin && arr[j-1] > key) {
-            arr[j] = arr[j-1];
-            j--;
-        }
-        arr[j] = key;
-    }
+    auto pivot = array_partition(arr, begin, end);
+    sequential_quicksort(arr, begin, pivot);
+    sequential_quicksort(arr, pivot + 1, end);
 }
 
 template<typename T>
