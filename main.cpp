@@ -90,6 +90,7 @@ void run_correctness_tests() {
         else max_value = array_size;
 
         auto test_array = parlay::tabulate(array_size, [&](long idx) {
+
             auto elem_rng = rng[test_num * 10000 + idx];
             return (long)(elem_rng() % max_value);
         });

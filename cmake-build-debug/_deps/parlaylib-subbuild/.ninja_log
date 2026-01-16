@@ -1,0 +1,21 @@
+# ninja log v6
+3	80	7902418849532713	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-mkdir	c619c8aa1cab2cd9
+3	80	7902418849532713	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-mkdir	c619c8aa1cab2cd9
+80	3274	7902418881506159	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-download	81edb4a201d71ed
+80	3274	7902418881506159	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-download	81edb4a201d71ed
+3275	4623	7902418881546011	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-update	f40f531d3b3bfabf
+3275	4623	7902418881546011	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-update	f40f531d3b3bfabf
+4623	4663	7902418895390659	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-patch	451ca2bb87211122
+4623	4663	7902418895390659	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-patch	451ca2bb87211122
+4663	4705	7902418895821660	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-configure	18745b5db74b5152
+4663	4705	7902418895821660	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-configure	18745b5db74b5152
+4705	4748	7902418896244851	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-build	7d47a43d178538b1
+4705	4748	7902418896244851	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-build	7d47a43d178538b1
+4748	4788	7902418896640295	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-install	c8b651d7323b657b
+4748	4788	7902418896640295	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-install	c8b651d7323b657b
+4788	4832	7902418897083518	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-test	45fe86787876d448
+4788	4832	7902418897083518	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-test	45fe86787876d448
+4832	4886	7902418897621823	CMakeFiles/parlaylib-populate-complete	1851b9d020057051
+4832	4886	7902418897621823	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-done	1851b9d020057051
+4832	4886	7902418897621823	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/CMakeFiles/parlaylib-populate-complete	1851b9d020057051
+4832	4886	7902418897621823	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-done	1851b9d020057051

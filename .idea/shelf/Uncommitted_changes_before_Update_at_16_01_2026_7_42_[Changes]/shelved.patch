@@ -1,0 +1,155 @@
+Index: cmake-build-debug/.ninja_log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># ninja log v6\r\n11\t3305\t7849445853069762\tCMakeFiles/quicksort_benchmark.dir/sequential_quicksort.cpp.obj\tba2a6ea127d973b7\r\n15\t3941\t7849445853109729\tCMakeFiles/quicksort_benchmark.dir/parallel_quicksort.cpp.obj\tc584a81b37d0d78d\r\n4806\t4959\t7849466176953616\tquicksort_benchmark.exe\tc13b81141f29723a\r\n30\t4806\t7849466129187422\tCMakeFiles/quicksort_benchmark.dir/main.cpp.obj\tb4bba1984b6463b6\r\n15\t7395\t7849544970603499\tCMakeFiles/quicksort_evaluation.dir/main.cpp.obj\t5f9497e26042c45f\r\n14\t3419\t7849510275364677\tCMakeFiles/qsort_benchmark.dir/main.cpp.obj\t8162894bb07f93d9\r\n3420\t4350\t7849510309415133\tqsort_benchmark.exe\t329be244ea99e85c\r\n7396\t7617\t7849545044416951\tquicksort_evaluation.exe\t17e27e95b6794e7a\r\n8\t7189\t7849552594597175\tCMakeFiles/quicksort_evaluation.dir/main.cpp.obj\t5f9497e26042c45f\r\n7190\t7431\t7849552666426566\tquicksort_evaluation.exe\t17e27e95b6794e7a\r\n6\t4770\t7849566015449297\tCMakeFiles/quicksort_evaluation.dir/main.cpp.obj\t5f9497e26042c45f\r\n4771\t4921\t7849566063093878\tquicksort_evaluation.exe\t17e27e95b6794e7a\r\n6\t4736\t7849567363591781\tCMakeFiles/quicksort_evaluation.dir/main.cpp.obj\t5f9497e26042c45f\r\n4736\t4890\t7849567410894762\tquicksort_evaluation.exe\t17e27e95b6794e7a\r\n25\t4697\t7849568412228441\tCMakeFiles/quicksort_evaluation.dir/main.cpp.obj\t5f9497e26042c45f\r\n4697\t4848\t7849568458957785\tquicksort_evaluation.exe\t17e27e95b6794e7a\r\n25\t5151\t7849568767769936\tCMakeFiles/quicksort_evaluation.dir/main.cpp.obj\t5f9497e26042c45f\r\n5151\t5292\t7849568819037432\tquicksort_evaluation.exe\t17e27e95b6794e7a\r\n32\t4834\t7849569739911462\tCMakeFiles/quicksort_evaluation.dir/main.cpp.obj\t5f9497e26042c45f\r\n4834\t4961\t7849569787936756\tquicksort_evaluation.exe\t17e27e95b6794e7a\r\n37\t5070\t7849574349417798\tCMakeFiles/quicksort_evaluation.dir/main.cpp.obj\t5f9497e26042c45f\r\n5071\t5243\t7849574399751481\tquicksort_evaluation.exe\t17e27e95b6794e7a\r\n26\t5084\t7849575220511505\tCMakeFiles/quicksort_evaluation.dir/main.cpp.obj\t5f9497e26042c45f\r\n5084\t5256\t7849575271085304\tquicksort_evaluation.exe\t17e27e95b6794e7a\r\n25\t4717\t7849584080594061\tCMakeFiles/quicksort_evaluation.dir/main.cpp.obj\t5f9497e26042c45f\r\n4717\t4862\t7849584127520086\tquicksort_evaluation.exe\t17e27e95b6794e7a\r\n7\t4600\t7849584666109729\tCMakeFiles/quicksort_evaluation.dir/main.cpp.obj\t5f9497e26042c45f\r\n4600\t4752\t7849584712043901\tquicksort_evaluation.exe\t17e27e95b6794e7a\r\n33\t4792\t7849584968604068\tCMakeFiles/quicksort_evaluation.dir/main.cpp.obj\t5f9497e26042c45f\r\n4792\t4923\t7849585016191867\tquicksort_evaluation.exe\t17e27e95b6794e7a\r\n22\t4901\t7849585410970678\tCMakeFiles/quicksort_evaluation.dir/main.cpp.obj\t5f9497e26042c45f\r\n4901\t5029\t7849585459770081\tquicksort_evaluation.exe\t17e27e95b6794e7a\r\n32\t4721\t7849586245519901\tCMakeFiles/quicksort_evaluation.dir/main.cpp.obj\t5f9497e26042c45f\r\n4722\t4849\t7849586292423391\tquicksort_evaluation.exe\t17e27e95b6794e7a\r\n32\t4684\t7849587289162209\tCMakeFiles/quicksort_evaluation.dir/main.cpp.obj\t5f9497e26042c45f\r\n4685\t4806\t7849587335687340\tquicksort_evaluation.exe\t17e27e95b6794e7a\r\n8\t5487\t7849589581031821\tCMakeFiles/quicksort_evaluation.dir/main.cpp.obj\t5f9497e26042c45f\r\n5487\t5614\t7849589635832293\tquicksort_evaluation.exe\t17e27e95b6794e7a\r\n
+===================================================================
+diff --git a/cmake-build-debug/.ninja_log b/cmake-build-debug/.ninja_log
+--- a/cmake-build-debug/.ninja_log	(revision aa48c5de73aa8f396d41e984cb0beaa04b874c82)
++++ b/cmake-build-debug/.ninja_log	(date 1768538419491)
+@@ -3,37 +3,17 @@
+ 15	3941	7849445853109729	CMakeFiles/quicksort_benchmark.dir/parallel_quicksort.cpp.obj	c584a81b37d0d78d
+ 4806	4959	7849466176953616	quicksort_benchmark.exe	c13b81141f29723a
+ 30	4806	7849466129187422	CMakeFiles/quicksort_benchmark.dir/main.cpp.obj	b4bba1984b6463b6
+-15	7395	7849544970603499	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
++60	4778	7866402284014416	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
+ 14	3419	7849510275364677	CMakeFiles/qsort_benchmark.dir/main.cpp.obj	8162894bb07f93d9
+ 3420	4350	7849510309415133	qsort_benchmark.exe	329be244ea99e85c
+-7396	7617	7849545044416951	quicksort_evaluation.exe	17e27e95b6794e7a
+-8	7189	7849552594597175	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
+-7190	7431	7849552666426566	quicksort_evaluation.exe	17e27e95b6794e7a
+-6	4770	7849566015449297	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
+-4771	4921	7849566063093878	quicksort_evaluation.exe	17e27e95b6794e7a
+-6	4736	7849567363591781	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
+-4736	4890	7849567410894762	quicksort_evaluation.exe	17e27e95b6794e7a
+-25	4697	7849568412228441	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
+-4697	4848	7849568458957785	quicksort_evaluation.exe	17e27e95b6794e7a
+-25	5151	7849568767769936	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
+-5151	5292	7849568819037432	quicksort_evaluation.exe	17e27e95b6794e7a
+-32	4834	7849569739911462	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
+-4834	4961	7849569787936756	quicksort_evaluation.exe	17e27e95b6794e7a
+-37	5070	7849574349417798	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
+-5071	5243	7849574399751481	quicksort_evaluation.exe	17e27e95b6794e7a
+-26	5084	7849575220511505	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
+-5084	5256	7849575271085304	quicksort_evaluation.exe	17e27e95b6794e7a
+-25	4717	7849584080594061	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
+-4717	4862	7849584127520086	quicksort_evaluation.exe	17e27e95b6794e7a
+-7	4600	7849584666109729	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
+-4600	4752	7849584712043901	quicksort_evaluation.exe	17e27e95b6794e7a
+-33	4792	7849584968604068	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
+-4792	4923	7849585016191867	quicksort_evaluation.exe	17e27e95b6794e7a
+-22	4901	7849585410970678	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
+-4901	5029	7849585459770081	quicksort_evaluation.exe	17e27e95b6794e7a
+-32	4721	7849586245519901	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
+-4722	4849	7849586292423391	quicksort_evaluation.exe	17e27e95b6794e7a
+-32	4684	7849587289162209	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
+-4685	4806	7849587335687340	quicksort_evaluation.exe	17e27e95b6794e7a
+-8	5487	7849589581031821	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
+-5487	5614	7849589635832293	quicksort_evaluation.exe	17e27e95b6794e7a
++4779	5107	7866402331212505	quicksort_evaluation.exe	17e27e95b6794e7a
++129	4630	7902410075842159	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
++4630	4994	7902410120852491	quicksort_evaluation.exe	17e27e95b6794e7a
++54	4558	7902412498169892	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
++4559	4695	7902412543217312	quicksort_evaluation.exe	17e27e95b6794e7a
++58	4411	7902413081296987	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
++4412	4560	7902413124827635	quicksort_evaluation.exe	17e27e95b6794e7a
++55	4513	7902414297125434	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
++4513	4636	7902414341709019	quicksort_evaluation.exe	17e27e95b6794e7a
++57	4575	7902416148374256	CMakeFiles/quicksort_evaluation.dir/main.cpp.obj	5f9497e26042c45f
++4575	4712	7902416193559970	quicksort_evaluation.exe	17e27e95b6794e7a
+Index: cmake-build-debug/_deps/parlaylib-subbuild/.ninja_log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># ninja log v6\r\n1\t58\t7849486041713874\tparlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-mkdir\tc619c8aa1cab2cd9\r\n17\t1783\t7849544895367029\tC:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-update\tf40f531d3b3bfabf\r\n2122\t2211\t7849544917244005\tC:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/CMakeFiles/parlaylib-populate-complete\t1851b9d020057051\r\n2056\t2122\t7849544916345926\tC:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-test\t45fe86787876d448\r\n1783\t1861\t7849544913733061\tC:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-patch\t451ca2bb87211122\r\n1\t58\t7849486041713874\tC:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-mkdir\tc619c8aa1cab2cd9\r\n58\t2552\t7849486066659758\tparlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-download\t81edb4a201d71ed\r\n58\t2552\t7849486066659758\tC:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-download\t81edb4a201d71ed\r\n17\t1783\t7849544895367029\tparlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-update\tf40f531d3b3bfabf\r\n1783\t1861\t7849544913733061\tparlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-patch\t451ca2bb87211122\r\n1861\t1924\t7849544914373411\tparlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-configure\t18745b5db74b5152\r\n1861\t1924\t7849544914373411\tC:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-configure\t18745b5db74b5152\r\n1924\t1988\t7849544915014060\tparlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-build\t7d47a43d178538b1\r\n1924\t1988\t7849544915014060\tC:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-build\t7d47a43d178538b1\r\n1988\t2056\t7849544915698199\tparlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-install\tc8b651d7323b657b\r\n1988\t2056\t7849544915698199\tC:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-install\tc8b651d7323b657b\r\n2056\t2122\t7849544916345926\tparlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-test\t45fe86787876d448\r\n2122\t2211\t7849544917244005\tCMakeFiles/parlaylib-populate-complete\t1851b9d020057051\r\n2122\t2211\t7849544917244005\tparlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-done\t1851b9d020057051\r\n2122\t2211\t7849544917244005\tC:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-done\t1851b9d020057051\r\n24\t1729\t7849552526452390\tparlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-update\tf40f531d3b3bfabf\r\n24\t1729\t7849552526452390\tC:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-update\tf40f531d3b3bfabf\r\n1729\t1792\t7849552544072496\tparlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-patch\t451ca2bb87211122\r\n1729\t1792\t7849552544072496\tC:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-patch\t451ca2bb87211122\r\n1792\t1863\t7849552544747278\tparlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-configure\t18745b5db74b5152\r\n1792\t1863\t7849552544747278\tC:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-configure\t18745b5db74b5152\r\n1863\t1945\t7849552545592121\tparlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-build\t7d47a43d178538b1\r\n1863\t1945\t7849552545592121\tC:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-build\t7d47a43d178538b1\r\n1945\t2018\t7849552546318435\tparlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-install\tc8b651d7323b657b\r\n1945\t2018\t7849552546318435\tC:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-install\tc8b651d7323b657b\r\n2019\t2085\t7849552547005840\tparlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-test\t45fe86787876d448\r\n2019\t2085\t7849552547005840\tC:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-test\t45fe86787876d448\r\n2085\t2170\t7849552547861036\tCMakeFiles/parlaylib-populate-complete\t1851b9d020057051\r\n2085\t2170\t7849552547861036\tparlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-done\t1851b9d020057051\r\n2085\t2170\t7849552547861036\tC:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/CMakeFiles/parlaylib-populate-complete\t1851b9d020057051\r\n2085\t2170\t7849552547861036\tC:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-done\t1851b9d020057051\r\n
+===================================================================
+diff --git a/cmake-build-debug/_deps/parlaylib-subbuild/.ninja_log b/cmake-build-debug/_deps/parlaylib-subbuild/.ninja_log
+--- a/cmake-build-debug/_deps/parlaylib-subbuild/.ninja_log	(revision aa48c5de73aa8f396d41e984cb0beaa04b874c82)
++++ b/cmake-build-debug/_deps/parlaylib-subbuild/.ninja_log	(date 1766912785030)
+@@ -1,28 +1,14 @@
+ # ninja log v6
+ 1	58	7849486041713874	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-mkdir	c619c8aa1cab2cd9
+-17	1783	7849544895367029	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-update	f40f531d3b3bfabf
+-2122	2211	7849544917244005	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/CMakeFiles/parlaylib-populate-complete	1851b9d020057051
+-2056	2122	7849544916345926	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-test	45fe86787876d448
+-1783	1861	7849544913733061	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-patch	451ca2bb87211122
++24	1729	7849552526452390	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-update	f40f531d3b3bfabf
++2085	2170	7849552547861036	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/CMakeFiles/parlaylib-populate-complete	1851b9d020057051
++2019	2085	7849552547005840	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-test	45fe86787876d448
++1729	1792	7849552544072496	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-patch	451ca2bb87211122
+ 1	58	7849486041713874	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-mkdir	c619c8aa1cab2cd9
+ 58	2552	7849486066659758	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-download	81edb4a201d71ed
+ 58	2552	7849486066659758	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-download	81edb4a201d71ed
+-17	1783	7849544895367029	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-update	f40f531d3b3bfabf
+-1783	1861	7849544913733061	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-patch	451ca2bb87211122
+-1861	1924	7849544914373411	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-configure	18745b5db74b5152
+-1861	1924	7849544914373411	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-configure	18745b5db74b5152
+-1924	1988	7849544915014060	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-build	7d47a43d178538b1
+-1924	1988	7849544915014060	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-build	7d47a43d178538b1
+-1988	2056	7849544915698199	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-install	c8b651d7323b657b
+-1988	2056	7849544915698199	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-install	c8b651d7323b657b
+-2056	2122	7849544916345926	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-test	45fe86787876d448
+-2122	2211	7849544917244005	CMakeFiles/parlaylib-populate-complete	1851b9d020057051
+-2122	2211	7849544917244005	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-done	1851b9d020057051
+-2122	2211	7849544917244005	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-done	1851b9d020057051
+ 24	1729	7849552526452390	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-update	f40f531d3b3bfabf
+-24	1729	7849552526452390	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-update	f40f531d3b3bfabf
+ 1729	1792	7849552544072496	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-patch	451ca2bb87211122
+-1729	1792	7849552544072496	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-patch	451ca2bb87211122
+ 1792	1863	7849552544747278	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-configure	18745b5db74b5152
+ 1792	1863	7849552544747278	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-configure	18745b5db74b5152
+ 1863	1945	7849552545592121	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-build	7d47a43d178538b1
+@@ -30,8 +16,22 @@
+ 1945	2018	7849552546318435	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-install	c8b651d7323b657b
+ 1945	2018	7849552546318435	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-install	c8b651d7323b657b
+ 2019	2085	7849552547005840	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-test	45fe86787876d448
+-2019	2085	7849552547005840	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-test	45fe86787876d448
+ 2085	2170	7849552547861036	CMakeFiles/parlaylib-populate-complete	1851b9d020057051
+ 2085	2170	7849552547861036	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-done	1851b9d020057051
+-2085	2170	7849552547861036	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/CMakeFiles/parlaylib-populate-complete	1851b9d020057051
+ 2085	2170	7849552547861036	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-done	1851b9d020057051
++25	1996	7886159825880784	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-update	f40f531d3b3bfabf
++25	1996	7886159825880784	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-update	f40f531d3b3bfabf
++1997	2063	7886159846203289	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-patch	451ca2bb87211122
++1997	2063	7886159846203289	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-patch	451ca2bb87211122
++2063	2140	7886159846982988	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-configure	18745b5db74b5152
++2063	2140	7886159846982988	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-configure	18745b5db74b5152
++2140	2211	7886159847684393	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-build	7d47a43d178538b1
++2140	2211	7886159847684393	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-build	7d47a43d178538b1
++2211	2301	7886159848578274	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-install	c8b651d7323b657b
++2211	2301	7886159848578274	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-install	c8b651d7323b657b
++2301	2384	7886159849405560	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-test	45fe86787876d448
++2301	2384	7886159849405560	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-test	45fe86787876d448
++2384	2467	7886159850236413	CMakeFiles/parlaylib-populate-complete	1851b9d020057051
++2384	2467	7886159850236413	parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-done	1851b9d020057051
++2384	2467	7886159850236413	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/CMakeFiles/parlaylib-populate-complete	1851b9d020057051
++2384	2467	7886159850236413	C:/Users/paska/CLionProjects/qsort/cmake-build-debug/_deps/parlaylib-subbuild/parlaylib-populate-prefix/src/parlaylib-populate-stamp/parlaylib-populate-done	1851b9d020057051
+Index: cmake-build-debug/Testing/Temporary/LastTest.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Start testing: Nov 16 04:16 RTZ 2 (����)\r\n----------------------------------------------------------\r\nEnd testing: Nov 16 04:16 RTZ 2 (����)\r\n
+===================================================================
+diff --git a/cmake-build-debug/Testing/Temporary/LastTest.log b/cmake-build-debug/Testing/Temporary/LastTest.log
+--- a/cmake-build-debug/Testing/Temporary/LastTest.log	(revision aa48c5de73aa8f396d41e984cb0beaa04b874c82)
++++ b/cmake-build-debug/Testing/Temporary/LastTest.log	(date 1768538419533)
+@@ -1,3 +1,3 @@
+-Start testing: Nov 16 04:16 RTZ 2 (����)
++Start testing: Jan 16 07:40 RTZ 2 (����)
+ ----------------------------------------------------------
+-End testing: Nov 16 04:16 RTZ 2 (����)
++End testing: Jan 16 07:40 RTZ 2 (����)
+Index: cmake-build-debug/CMakeFiles/clion-Debug-log.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>C:\\Users\\paska\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/paska/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\\Users\\paska\\CLionProjects\\qsort -B C:\\Users\\paska\\CLionProjects\\qsort\\cmake-build-debug\r\n-- PARLAY VERSION 2.3.3\r\n-- ---------------------------- General configuration -----------------------------\r\n-- CMake Generator:                Ninja\r\n-- Compiler:                       GNU 13.1.0\r\n-- Build type:                     Debug\r\n-- CMAKE_CXX_FLAGS:                 -O3 -march=native\r\n-- CMAKE_CXX_FLAGS_DEBUG:          -g\r\n-- CMAKE_CXX_FLAGS_RELEASE:        -O3 -DNDEBUG\r\n-- CMAKE_CXX_FLAGS_RELWITHDEBINFO: -O2 -g -DNDEBUG -fno-omit-frame-pointer\r\n-- CMAKE_EXE_LINKER_FLAGS          \r\n-- CMAKE_INSTALL_PREFIX:           C:/Program Files (x86)/quicksort_benchmark\r\n-- -------------------------------- Library options ------------------------------\r\n-- Using Parlay scheduler. Switch with -DPARLAY_{CILKPLUS,OPENCILK,OPENMP,TBB}=On\r\n-- Elastic parallelism enabled. Disable with -DPARLAY_ELASTIC_PARALLELISM=Off\r\n-- ------------------------------- Static Analysis --------------------------------\r\n-- cppcheck:                     Disabled (enable with -DENABLE_CPPCHECK=On)\r\n-- clang-tidy:                   Disabled (enable with -DENABLE_CLANG_TIDY=On)\r\n-- include-what-you-use:         Disabled (enable with -DENABLE_IWYU=On)\r\n-- ---------------------------------- Unit Tests ----------------------------------\r\n-- testing: Disabled (enable with -DPARLAY_TEST=On)\r\n-- ---------------------------------- Benchmarks ----------------------------------\r\n-- benchmarks: Disabled (enable with -DPARLAY_BENCHMARK=On)\r\n-- ----------------------------------- Examples -----------------------------------\r\n-- examples: Disabled (enable with -DPARLAY_EXAMPLES=On)\r\n-- example data: Off (add -DPARLAY_EXAMPLE_DATA=On to download)\r\n-- Configuring done (2.8s)\r\n-- Generating done (0.0s)\r\n-- Build files have been written to: C:/Users/paska/CLionProjects/qsort/cmake-build-debug\r\n
+===================================================================
+diff --git a/cmake-build-debug/CMakeFiles/clion-Debug-log.txt b/cmake-build-debug/CMakeFiles/clion-Debug-log.txt
+--- a/cmake-build-debug/CMakeFiles/clion-Debug-log.txt	(revision aa48c5de73aa8f396d41e984cb0beaa04b874c82)
++++ b/cmake-build-debug/CMakeFiles/clion-Debug-log.txt	(date 1766912786064)
+@@ -24,6 +24,6 @@
+ -- ----------------------------------- Examples -----------------------------------
+ -- examples: Disabled (enable with -DPARLAY_EXAMPLES=On)
+ -- example data: Off (add -DPARLAY_EXAMPLE_DATA=On to download)
+--- Configuring done (2.8s)
+--- Generating done (0.0s)
++-- Configuring done (3.4s)
++-- Generating done (0.1s)
+ -- Build files have been written to: C:/Users/paska/CLionProjects/qsort/cmake-build-debug
