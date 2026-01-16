@@ -80,12 +80,18 @@ void run_correctness_tests() {
     const int total_tests = 300;
 
     for (int test_num = 0; test_num < total_tests; test_num++) {
-        auto size_rng = rng[test_num * 2];
-        size_t array_size = 10 + (size_rng() % 1000000);
+        auto size_rng = rng[test_num];
+        size_t array_size = 10 + (size_rng() % 100000);
+
+        int max_value = 100000;
+        if (test_num % 4 == 0) max_value = 100;
+        else if (test_num % 4 == 1) max_value = 1000;
+        else if (test_num % 4 == 2) max_value = 10000;
+        else max_value = array_size;
 
         auto test_array = parlay::tabulate(array_size, [&](long idx) {
-            auto elem_rng = rng[test_num * 2 + 1 + idx];
-            return (long)(elem_rng() % 1000000);
+            auto elem_rng = rng[test_num * 10000 + idx];
+            return (long)(elem_rng() % max_value);
         });
 
         auto seq_copy = test_array;
@@ -97,9 +103,13 @@ void run_correctness_tests() {
         parallel_quicksort(par_copy);
         bool par_correct = validate_sorting(test_array, par_copy);
         if (par_correct) passed_parallel++;
+
+        if ((test_num + 1) % 50 == 0) {
+            std::cout << "Completed " << (test_num + 1) << " tests" << std::endl;
+        }
     }
 
-    std::cout << "Sequential sort: " << passed_sequential << "/" << total_tests << " passed\n";
+    std::cout << "\nSequential sort: " << passed_sequential << "/" << total_tests << " passed\n";
     std::cout << "Parallel sort: " << passed_parallel << "/" << total_tests << " passed\n\n";
 }
 
